@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "createdDate": "2013-01-23 01:59:05",
+            "imageUrl": "http://images.example.com/product/converted/000000/000000000000.jpg",
+            "title": "WIRE 18 AWG WHITE 35 FEET GB",
+            "category": "ACCESSORIES/MISC",
+            "isActive": "0",
+            "popularityIndex": "NULL",
+            "itemId": "115298",
+            "parentCategory": "ELECTRICAL ACCESSORIES",
+            "department": "ROUGH ELECTRICAL",
+            "upc": "032076053123",
+            "brand": "Gardner Bender",
+            "modifiedDate": "2013-02-08 10:09:30",
+            "itemHashint64": "20211613172483"
+        },
+        {
+            "createdDate": "2013-01-23 02:03:41",
+            "imageUrl": "http://images.example.com/product/converted/046135/046135132018.jpg",
+            "title": "6-Pack 40-Watt B Candelabra Base Soft White Decorative Incandescent Light Bulb",
+            "category": "LIGHT BULBS-DECORATIVE",
+            "isActive": "0",
+            "popularityIndex": "NULL",
+            "itemId": "197854",
+            "parentCategory": "LIGHT BULBS",
+            "department": "LIGHTING",
+            "upc": "046135132018",
+            "brand": "SYLVANIA",
+            "modifiedDate": "2013-02-08 10:10:02",
+            "itemHashint64": "28415818274620"
+        },
+        {
+            "createdDate": "2013-01-23 02:16:15",
+            "imageUrl": "http://images.example.com/product/converted/000000/000000000000.jpg",
+            "title": "PGS975SERSS 5.3CF GE GAS(363492)",
+            "category": "FREESTAND GAS RANGES - GE",
+            "isActive": "0",
+            "popularityIndex": "NULL",
+            "itemId": "418431",
+            "parentCategory": "FREE STANDING RANGES",
+            "department": "APPLIANCES",
+            "upc": "067732079278",
+            "brand": "GE",
+            "modifiedDate": "2013-02-08 10:11:35",
+            "itemHashint64": "30087048281435"
+        }
+    ]
+}
