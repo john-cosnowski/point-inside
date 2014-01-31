@@ -14,6 +14,11 @@ import org.springframework.stereotype.Component;
 import com.pi.model.Product;
 import com.pi.model.Products;
 
+/**
+ * Provides a list of all available product records.  
+ * @author johncosnowski
+ *
+ */
 @Component
 public class ProductRepository {
 
