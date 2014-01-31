@@ -3,6 +3,9 @@ package com.pi.model;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties({"keywords"})
 public class Product {
 
 	private String createdDate;
