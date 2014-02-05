@@ -12,17 +12,12 @@ import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import com.pi.data.ProductRepository;
 import com.pi.model.Product;
 
 @RunWith(MockitoJUnitRunner.class)
-public class UncachedProductsDAOTest {
-	
-	@Mock
-	private ProductRepository productRepository;
+public class UncachedProductsDAOTest extends ProductRepositoryDAOTest {
 	
 	@InjectMocks
 	private UncachedProductsDAO testObj;
@@ -78,34 +73,5 @@ public class UncachedProductsDAOTest {
 		assertThat(containsUpc(result, "88"), is(false));
 		assertThat(result.size(), is(1));
 		
-	}
-	
-	private Product buildProduct(String category)  {
-		Product product = new Product();
-		product.setCategory(category);
-		return product;
-	}
-	
-	private Product buildProduct(String category, String upc)  {
-		Product product = new Product();
-		product.setCategory(category);
-		product.setUpc(upc);
-		return product;
-	}
-	
-	private Product buildProduct(String category, String title,String upc)  {
-		Product product = new Product();
-		product.setCategory(category);
-		product.setTitle(title);
-		product.setUpc(upc);
-		return product;
-	}
-	private boolean containsUpc(Collection<Product> products, String upc)  {
-		for (Product product : products)  {
-			if (upc.equals(product.getUpc())) {
-				return true;
-			}
-		}
-		return false;
 	}
 }
